@@ -75,6 +75,9 @@ For more information about WSL installation, visit: https://docs.microsoft.com/e
 ## Usage
 
 ```bash
+# Run
+python main.py
+
 # Add a todo
 python -m todo add "Buy groceries"
 
