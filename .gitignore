@@ -94,6 +94,7 @@ __pycache__/
 
 # Lock files
 *.lock
+!uv.lock
 
 # Temporary files
 *.tmp
@@ -106,12 +107,9 @@ __pycache__/
 # Python cache
 *.pyo
 
-# uv lock file
-uv.lock
-
-# CLAUDE specific files
-.claude/
-.mcp.json
+# CLAUDE specific files (only exclude local settings)
+.claude/settings.local.json
+.claude/settings.json
+!/.claude/
 
 # Local configuration
-.claude/settings.json
