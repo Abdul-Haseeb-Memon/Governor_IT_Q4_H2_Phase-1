@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage
+.coverage
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Testing
+.pytest_cache/
+.coverage/
+
+# Compiled files
+*.class
+*.o
+*.a
+*.dylib
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Python dependency files
+requirements.txt
+requirements-dev.txt
+
+# Local config files
+*.local.json
+config.local.json
+
+# CLAUDE specific
+.claude/settings.local.json
+.history
+*.pyc
+
+# Local Python files that might be temporary
+*.pyc
+__pycache__/
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.cert
+*.secret
+
+# Lock files
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local settings
+*.local
+.local
+
+# Python cache
+*.pyo
+
+# uv lock file
+uv.lock
+
+# CLAUDE specific files
+.claude/
+.mcp.json
+
+# Local configuration
+.claude/settings.json
