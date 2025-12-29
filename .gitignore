@@ -113,3 +113,9 @@ __pycache__/
 !/.claude/
 
 # Local configuration
+
+# MCP configuration
+.mcp.json
+
+# uv lock file
+uv.lock
